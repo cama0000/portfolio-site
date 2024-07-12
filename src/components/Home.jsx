@@ -8,18 +8,23 @@ const Home = () => {
         <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
             <div className="flex flex-col justify-center h-full">
                 {/* Mobile/small is 4xl and desktop/bigger is 7xl */}
-                <h2 className="text-4xl sm:text-7xl text-white">Hey, I'm Cameron.</h2>
+                <h2 className="text-4xl sm:text-7xl text-white text-center sm:text-left">Hey, I'm Cameron.</h2>
+
                 <p className="text-gray-500 py-4 sm:text-xl">
                     I am a <span className="font-bold hover:text-gray-400">Computer Science</span> student pursuing <span className="font-bold hover:text-gray-400">full-stack </span> web development. 
                 </p>
 
-                <div>
-                    <Link to="contact" smooth duration={500} className="text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-l
-                    from-cyan-600 to-blue-500 cursor-pointer">
+                <div className="flex justify-center sm:justify-start">
+                    <Link
+                        to="contact"
+                        smooth
+                        duration={500}
+                        className="text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-l from-cyan-600 to-blue-500 cursor-pointer"
+                    >
                         Contact me
-                        <FaArrowAltCircleDown size={20} className="ml-1"></FaArrowAltCircleDown>
+                        <FaArrowAltCircleDown size={20} className="ml-1" />
                     </Link>
-                </div>
+                    </div>
             </div>
         </div>
     </div>
