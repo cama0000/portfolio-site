@@ -8,10 +8,9 @@ const Home = () => {
         <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
             <div className="flex flex-col justify-center h-full">
                 {/* Mobile/small is 4xl and desktop/bigger is 7xl */}
-                <h2 className="text-4xl sm:text-7xl text-white">Welcome to my site.</h2>
-                <p className="text-gray-500 py-4 max-w-md">
-                    I am a <span className="font-bold hover:text-gray-400">Computer Science</span> student with a drive for <span className="font-bold hover:text-gray-400">Full-Stack</span> development. 
-                    I am currently looking for any internship opportunities. Here, you can find information on who I am and what technologies I use!
+                <h2 className="text-4xl sm:text-7xl text-white">Hey, I'm Cameron.</h2>
+                <p className="text-gray-500 py-4 sm:text-xl">
+                    I am a <span className="font-bold hover:text-gray-400">Computer Science</span> student pursuing <span className="font-bold hover:text-gray-400">full-stack </span> web development. 
                 </p>
 
                 <div>

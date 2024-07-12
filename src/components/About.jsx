@@ -9,21 +9,16 @@ const About = () => {
             </div>
 
             <p className="text-xl mt-10">
-                I am a B.S. Computer Science student who aspires to delve deeper into full-stack development. I have several projects that I have completed during my
-                time in university that provided me the skills you see here today. Additionally, I have many individual projects that I have completed on
-                my own time. Typically, my goal for these projects is to help aid me in learning new languages / frameworks, as the way I learn best is through hands-on application. I am
-                extremely passionate about tech and I enjoy spending much of my day coding!
+                I am a Computer Science <span className="text-blue-400 font-bold">student</span> who aspires to delve deeper into the world of <span className="text-blue-400 font-bold">full-stack</span> development. I have many projects that I have completed on
+                my own time and in groups with others. Typically, my goal for these projects is to help aid me in learning new technologies, as the way I learn best is through hands-on application.
             </p>
 
             <br />
             <br />
 
             <p className="text-xl">
-                As stated above, I have attained numerous skills throughout my time in university. I have thorough applied knowledge of 
-                C++ and Java in these courses. I have had several opportunities to work with groups where I had to put my mind together with other
-                programmers. Through these projects, I have learned how to model, unit test, and collaborate within the Git environment. Additionally,
-                these experiences have brought me to the conclusion that proper communication is one of the most important aspects of software
-                development.
+                As listed below, I have experience with several in-demand technologies, each of which I use to develop <span className="text-blue-400 font-bold">web apps</span> that are viewable in my <span className="text-blue-400 font-bold">portfolio</span>. Each of these projects helped me grow
+                into the developer I am today.
             </p>
 
             <br />
