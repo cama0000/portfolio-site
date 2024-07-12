@@ -1,6 +1,8 @@
 import React from 'react'
 import pomodoro from "../Assets/pomodoro.jpg"
 import music from "../Assets/music.png"
+import studyApp from "../Assets/studyApp.png"
+import studyBuddy from "../Assets/studyBuddy.png"
 
 
 const Portfolio = () => {
@@ -8,16 +10,22 @@ const Portfolio = () => {
   const portfolios = [
     {
         id: 1,
+        title: "Study Buddy Web App",
+        link: "http://34.16.169.60:3000/",
+        src: studyBuddy
+    },
+    {
+        id: 2,
+        title: "Study Web App",
+        link: "https://github.com/cama0000/schoolapp",
+        src: studyApp
+    },
+    {
+        id: 3,
         title: "Pomodoro Timer",
         link: "https://github.com/cama0000/PomodoroTimer",
         src: pomodoro
     },
-    {
-        id: 2,
-        title: "Music Player",
-        link: "https://github.com/cama0000/MusicPlayer",
-        src: music
-    }
   ];
 
   return (
@@ -36,12 +44,13 @@ const Portfolio = () => {
             </div>
 
 
+            {/* change this grid 4 when adding another project and any more than that need to fix padding*/}
             <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
                 {portfolios.map(({id, title, link, src}) => (
                     <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
 
                         <a href={link} target="_blank" rel="noopener noreferrer">
-                            <img src={src} alt="" className="rounded-md duration-200 hover:scale-105"/>
+                            <img src={src} alt="" className="w-96 h-48 rounded-md duration-200 hover:scale-105"/>
                         </a>
                         
                         <div className="flex justify-center py-5">

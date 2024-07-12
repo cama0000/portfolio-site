@@ -17,7 +17,7 @@ const Home = () => {
                 <div>
                     <Link to="contact" smooth duration={500} className="text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-l
                     from-cyan-600 to-blue-500 cursor-pointer">
-                        Contact me!
+                        Contact me
                         <FaArrowAltCircleDown size={20} className="ml-1"></FaArrowAltCircleDown>
                     </Link>
                 </div>
