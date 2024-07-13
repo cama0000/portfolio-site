@@ -1,6 +1,5 @@
 import React from 'react'
 import pomodoro from "../Assets/pomodoro.jpg"
-import music from "../Assets/music.png"
 import studyApp from "../Assets/studyApp.png"
 import studyBuddy from "../Assets/studyBuddy.png"
 
