@@ -37,7 +37,7 @@ const Portfolio = () => {
                 </p>
 
                 <p className="pt-10 pb-3">
-                    Home of my individual projects. Click on one to check them out!
+                    Home of the projects I have worked on. Click on one to check them out!
                 </p>
 
             </div>
