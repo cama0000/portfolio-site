@@ -6,7 +6,10 @@ import NavBar from "./components/NavBar";
 import Portfolio from "./components/Portfolio";
 import Social from "./components/Social";
 
+import React from 'react';
+
 function App() {
+
   return (
     <div>
       <NavBar />

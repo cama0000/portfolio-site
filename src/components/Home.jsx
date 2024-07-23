@@ -43,6 +43,7 @@ const Home = () => {
   useEffect(() => {
     AOS.init({
       duration: 3000, // Animation duration in milliseconds
+      once: true
     });
   }, []);
 
