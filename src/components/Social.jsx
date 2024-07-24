@@ -3,6 +3,8 @@ import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import {HiOutlineMail} from 'react-icons/hi';
 import {BsFillPersonLinesFill} from 'react-icons/bs';
 
+import { IoIosPaper } from "react-icons/io";
+
 const Social = () => {
 
   const links = [
@@ -38,7 +40,7 @@ const Social = () => {
         id: 4,
         child: (
             <>
-                Resume <BsFillPersonLinesFill size={30} />
+                Resume <IoIosPaper size={30}/>
             </>
         ),
         href: '/resume.pdf',

@@ -5,6 +5,7 @@ import Home from "./components/Home";
 import NavBar from "./components/NavBar";
 import Portfolio from "./components/Portfolio";
 import Social from "./components/Social";
+import Footer from "./components/Footer";
 
 import React from 'react';
 
@@ -18,6 +19,7 @@ function App() {
       <Portfolio />
       <Experience />
       <Contact />
+      <Footer />
       <Social />
     </div>
   );
