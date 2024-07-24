@@ -58,7 +58,7 @@ const About = () => {
 
             <p className="text-xl mt-10" data-aos="fade-up">
                 I am a Computer Science <span className="text-blue-400 font-bold">student</span> who aspires to delve deeper into the world of <span className="text-blue-400 font-bold">full-stack</span> development. I have many projects that I have completed on
-                my own time and in groups with others. Typically, my goal for these projects is to help aid me in learning new technologies, as the way I learn best is through hands-on application.
+                my own time and in collaboration with others. Typically, my goal for these projects is to help aid me in learning new technologies, as the way I learn best is through hands-on application.
             </p>
 
             <br />
