@@ -112,10 +112,6 @@ const Portfolio = () => {
             Portfolio
           </p>
 
-          <p className="pt-10 pb-3">
-            Home of the projects I have worked on. Click on one to check them out!
-          </p>
-
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
