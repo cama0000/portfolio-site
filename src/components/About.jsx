@@ -70,6 +70,15 @@ const About = () => {
             </p>
 
             <br />
+            <br />
+
+            <p className="text-xl" data-aos="fade-up">
+                In addition to my passion for <span className="text-blue-400 font-bold">Software Engineering</span>, I have a drive to incorporate <span className="text-blue-400 font-bold">Machine Learning</span> into my skillset. <span className="text-blue-400 font-bold">AI</span> is in high demand 
+                and I hope to be at the forefront of it in the future. Recently, this has been a large portion of what I have been focused on as I have
+                utilized <span className="text-blue-400 font-bold">trained models</span> for image processing by feeding in  <span className="text-blue-400 font-bold">embeddings</span>.
+            </p>
+
+            <br />
         </div>
     </div>
   )
