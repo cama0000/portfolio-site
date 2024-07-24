@@ -85,13 +85,13 @@ const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      title: "Study Buddy Web App",
+      title: "Studdy Buddy",
       link: "http://34.16.169.60:3000/",
       src: studyBuddy
     },
     {
       id: 2,
-      title: "Study Web App",
+      title: "Student Productivity Tracker",
       link: "https://github.com/cama0000/schoolapp",
       src: studyApp
     },
