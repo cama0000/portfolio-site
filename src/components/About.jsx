@@ -57,26 +57,30 @@ const About = () => {
             </div>
 
             <p className="text-xl mt-10" data-aos="fade-up">
-                I am a Computer Science <span className="text-blue-400 font-bold">student</span> at Baylor University who aspires to delve deeper into the world of <span className="text-blue-400 font-bold">full-stack</span> development. Although my passion for coding has stuck with me way before, since I was a kid. 
-                I have many projects that I have completed on
-                my own time and in collaboration with others. Typically, my goal for these projects is to help aid me in learning new technologies, as the way I learn best is through <span className="text-blue-400 font-bold">hands-on</span> application.
+                I am a Computer Science <span className="text-blue-400 font-bold">student</span> at Baylor University who aspires to delve 
+                deeper into the world of <span className="text-blue-400 font-bold">full-stack</span> development. My passion for coding has 
+                been with me since childhood. I have completed numerous projects independently and in collaboration with others, typically with 
+                the goal of learning new technologies through <span className="text-blue-400 font-bold">hands-on</span> application, which is the way I learn best.
             </p>
 
             <br />
             <br />
 
             <p className="text-xl" data-aos="fade-up">
-                As listed below, I have experience with several in-demand technologies, each of which I use to develop <span className="text-blue-400 font-bold">web apps</span> that are viewable in my <span className="text-blue-400 font-bold">portfolio</span>. Each of these projects helped me grow
-                into the developer I am today.
+                I have experience with several in-demand technologies, which I have used to develop <span className="text-blue-400 font-bold">web apps</span> showcased in my <span className="text-blue-400 font-bold">portfolio</span>. 
+                Each project has contributed significantly to my growth as a developer.
             </p>
 
             <br />
             <br />
 
             <p className="text-xl" data-aos="fade-up">
-                In addition to my passion for <span className="text-blue-400 font-bold">Software Engineering</span>, I have a drive to incorporate <span className="text-blue-400 font-bold">Machine Learning</span> into my skillset. <span className="text-blue-400 font-bold">AI</span> is in high demand 
-                and I hope to be at the forefront of it in the future. Recently, this has been a large portion of what I have been focused on as I have
-                utilized <span className="text-blue-400 font-bold">trained models</span> for image processing by feeding in  <span className="text-blue-400 font-bold">embeddings</span>.
+                In addition to my enthusiasm for <span className="text-blue-400 font-bold">Software Engineering</span>, I am committed to 
+                incorporating <span className="text-blue-400 font-bold">Machine Learning</span> into my skillset. 
+                With <span className="text-blue-400 font-bold">AI</span> being in high demand,  I hope to be at the forefront of this field in the future. 
+                Recently, I have concentrated significantly on this area
+                utilizing <span className="text-blue-400 font-bold">trained models</span> for image processing by feeding 
+                in <span className="text-blue-400 font-bold">embeddings</span>.
             </p>
 
             <br />
