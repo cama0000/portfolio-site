@@ -42,7 +42,7 @@ import 'aos/dist/aos.css';
 const About = () => {
     useEffect(() => {
         AOS.init({
-          duration: 3000, // Animation duration in milliseconds
+          duration: 3000,
           once: true
         });
       }, []);
