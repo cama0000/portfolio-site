@@ -71,6 +71,7 @@ import React, { useEffect } from 'react';
 import studyApp from "../Assets/studyApp.png";
 import studyBuddy from "../Assets/studyBuddy.png";
 import pantryPal from "../Assets/pantryPal.png";
+import speakStudy from "../Assets/speakStudy.png";
 import 'aos/dist/aos.css';
 import AOS from 'aos';
 
@@ -102,12 +103,12 @@ const Portfolio = () => {
       link: "https://github.com/cama0000/schoolapp",
       src: studyApp
     },
-    // {
-    //   id: 4,
-    //   title: "Pomodoro Timer",
-    //   link: "https://github.com/cama0000/PomodoroTimer",
-    //   src: pomodoro
-    // },
+    {
+      id: 4,
+      title: "SpeakStudy",
+      link: "https://github.com/cama0000/SpeakStudy",
+      src: speakStudy
+    },
   ];
 
   return (
