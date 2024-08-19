@@ -38,6 +38,7 @@
 import React, { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import { Link } from 'react-scroll';
 
 const About = () => {
     useEffect(() => {
@@ -59,7 +60,7 @@ const About = () => {
             <p className="text-xl mt-10" data-aos="fade-up">
                 I am a Computer Science <span className="text-blue-400 font-bold">student</span> at Baylor University who aspires to delve 
                 deeper into the world of <span className="text-blue-400 font-bold">full-stack</span> development. My passion for coding has 
-                been with me since childhood. I have completed numerous projects independently and in collaboration with others, typically with 
+                been with me since childhood, allowing me to get an understanding of how vast the technology world was at an early age. I have completed numerous projects independently and in collaboration with others, typically with 
                 the goal of learning new technologies through <span className="text-blue-400 font-bold">hands-on</span> application, which is the way I learn best.
             </p>
 
@@ -67,7 +68,12 @@ const About = () => {
             <br />
 
             <p className="text-xl" data-aos="fade-up">
-                I have experience with several in-demand technologies, which I have used to develop <span className="text-blue-400 font-bold">web apps</span> showcased in my <span className="text-blue-400 font-bold">portfolio</span>. 
+                I have experience with several in-demand technologies, which I have used to develop <span className="text-blue-400 font-bold">web apps</span> showcased in my{' '}
+                <span className="text-blue-400 font-bold hover:text-blue-200 hover:cursor-pointer">
+                    <Link to='portfolioDiv' smooth duration={500}>
+                        portfolio
+                    </Link>
+                </span>. 
                 Each project has contributed significantly to my growth as a developer.
             </p>
 
