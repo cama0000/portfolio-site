@@ -72,6 +72,7 @@ import studyApp from "../Assets/studyApp.png";
 import studyBuddy from "../Assets/studyBuddy.png";
 import pantryPal from "../Assets/pantryPal.png";
 import speakStudy from "../Assets/speakStudy.png";
+import quantaFlashcards from "../Assets/quantaFlashcards.png";
 import 'aos/dist/aos.css';
 import AOS from 'aos';
 
@@ -108,6 +109,12 @@ const Portfolio = () => {
       title: "SpeakStudy",
       link: "https://github.com/cama0000/SpeakStudy",
       src: speakStudy
+    },
+    {
+      id: 5,
+      title: "Quanta AI Flashcards",
+      link: "https://quanta-flashcards.vercel.app/",
+      src: quantaFlashcards
     },
   ];
 
