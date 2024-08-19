@@ -8,7 +8,6 @@ import sql from "../Assets/sql.png";
 import python from "../Assets/python.png";
 import pytorch from "../Assets/pytorch.png";
 import firebase from "../Assets/firebase.png";
-import flask from "../Assets/flask.png";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
