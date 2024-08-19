@@ -7,6 +7,7 @@ import spring from "../Assets/spring.png";
 import sql from "../Assets/sql.png";
 import python from "../Assets/python.png";
 import pytorch from "../Assets/pytorch.png";
+import firebase from "../Assets/firebase.png";
 import flask from "../Assets/flask.png";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -59,8 +60,8 @@ const Experience = () => {
     },
     {
         id: 7,
-        src: flask,
-        title: 'Flask',
+        src: firebase,
+        title: 'Firebase',
         style: 'shadow-white'
     },
     {
