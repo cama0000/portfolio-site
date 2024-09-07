@@ -4,6 +4,7 @@ import studyBuddy from "../Assets/studyBuddy.png";
 import pantryPal from "../Assets/pantryPal.png";
 import speakStudy from "../Assets/speakStudy.png";
 import quantaFlashcards from "../Assets/quantaFlashcards.png";
+import rateMyProf from "../Assets/rateMyProf.png";
 import 'aos/dist/aos.css';
 import AOS from 'aos';
 
@@ -46,6 +47,12 @@ const Portfolio = () => {
       title: "Quanta AI Flashcards",
       link: "https://quanta-flashcards.vercel.app/",
       src: quantaFlashcards
+    },
+    {
+      id: 6,
+      title: "Rate My Professor Chatbot",
+      link: "https://github.com/cama0000/rateMyProf",
+      src: rateMyProf
     },
   ];
 
