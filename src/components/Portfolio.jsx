@@ -4,7 +4,10 @@ import studyBuddy from "../Assets/studyBuddy.png";
 import pantryPal from "../Assets/pantryPal.png";
 import speakStudy from "../Assets/speakStudy.png";
 import quantaFlashcards from "../Assets/quantaFlashcards.png";
-import rateMyProf from "../Assets/rateMyProf.png";
+import fakeNews from "../Assets/fakeNews.png";
+// import rateMyProf from "../Assets/rateMyProf.png";
+import { CiYoutube } from "react-icons/ci";
+import { FaGithub } from "react-icons/fa";
 import 'aos/dist/aos.css';
 import AOS from 'aos';
 
@@ -50,10 +53,22 @@ const Portfolio = () => {
     },
     {
       id: 6,
-      title: "Rate My Professor Chatbot",
-      link: "https://github.com/cama0000/rateMyProf",
-      src: rateMyProf
+      title: "Fake News Predictor",
+      link: "https://github.com/cama0000/fake-news-predictor-frontend",
+      src: fakeNews
     },
+    // {
+    //   id: 6,
+    //   title: "Rate My Professor Chatbot",
+    //   link: "https://github.com/cama0000/rateMyProf",
+    //   src: rateMyProf
+    // },
+    // {
+    //   id: 7,
+    //   title: "Rate My Professor Chatbot",
+    //   link: "https://github.com/cama0000/rateMyProf",
+    //   src: rateMyProf
+    // },
   ];
 
   return (
@@ -78,9 +93,39 @@ const Portfolio = () => {
               <div className="flex justify-center py-5">
                 {title}
               </div>
+
+              {/* <CiYoutube /> */}
             </div>
           ))}
         </div>
+
+
+{/* <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
+  {portfolios.map(({ id, title, link, src, youtubeLink }) => (
+    <div
+      key={id}
+      className="shadow-md shadow-gray-600 rounded-lg"
+      data-aos="fade-up"
+      data-aos-delay={id * 100}
+    >
+      <a href={link} target="_blank" rel="noopener noreferrer">
+        <img
+          src={src}
+          alt={title}
+          className="w-96 h-48 rounded-md duration-200 hover:scale-105"
+        />
+      </a>
+
+      <div className="flex justify-center items-center py-5 space-x-2">
+        <span>{title}</span>
+        <a href={youtubeLink} target="_blank" rel="noopener noreferrer">
+          <FaGithub className="text-gray-500 text-2xl hover:scale-110 duration-200 cursor-pointer" />
+        </a>
+      </div>
+    </div>
+  ))}
+</div> */}
+
       </div>
     </div>
   )
