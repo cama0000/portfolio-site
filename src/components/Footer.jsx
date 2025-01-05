@@ -40,7 +40,7 @@ const Footer = () => {
         </div>
 
         <div className="mt-4 text-center">
-          <p>&copy; 2024 Cameron Armijo</p>
+          <p>&copy; 2025 Cameron Armijo</p>
         </div>
       </div>
     </div>

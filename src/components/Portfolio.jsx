@@ -54,7 +54,7 @@ const Portfolio = () => {
     {
       id: 6,
       title: "Fake News Predictor",
-      link: "https://github.com/cama0000/fake-news-predictor-frontend",
+      link: "https://fake-news-predictor-frontend.vercel.app/",
       src: fakeNews
     },
     // {
