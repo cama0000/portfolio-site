@@ -42,7 +42,7 @@ const Portfolio = () => {
     {
       id: 4,
       title: "SpeakStudy",
-      link: "https://github.com/cama0000/SpeakStudy",
+      link: "https://speak-study.vercel.app/",
       src: speakStudy
     },
     {
