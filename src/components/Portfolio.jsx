@@ -23,8 +23,8 @@ const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      title: "Studdy Buddy",
-      link: "http://34.16.169.60:3000/",
+      title: "StuddyBuddy",
+      link: "https://github.com/Baylor-SEII-Projects-Spring-2024/study-buddy-finder-group-2",
       src: studyBuddy
     },
     {
