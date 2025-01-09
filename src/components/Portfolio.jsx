@@ -36,7 +36,7 @@ const Portfolio = () => {
     {
       id: 3,
       title: "Student Productivity Tracker",
-      link: "https://github.com/cama0000/schoolapp",
+      link: "https://schoolapp-zeta.vercel.app/",
       src: studyApp
     },
     {
