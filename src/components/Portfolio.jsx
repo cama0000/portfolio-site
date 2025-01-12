@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import studyApp from "../Assets/studyApp.png";
+import studyApp from "../Assets/prism.jpg";
 import studyBuddy from "../Assets/studyBuddy.png";
 import pantryPal from "../Assets/pantryPal.png";
 import speakStudy from "../Assets/speakStudy.png";
@@ -35,7 +35,7 @@ const Portfolio = () => {
     },
     {
       id: 3,
-      title: "Student Productivity Tracker",
+      title: "Prism",
       link: "https://schoolapp-zeta.vercel.app/",
       src: studyApp
     },

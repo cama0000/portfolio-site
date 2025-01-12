@@ -68,7 +68,7 @@ const About = () => {
             <br />
 
             <p className="text-xl" data-aos="fade-up">
-                I have experience with several in-demand technologies, which I have used to develop <span className="text-blue-400 font-bold">web apps</span> showcased in my{' '}
+                I have experience with several in-demand technologies, which I have used to deploy <span className="text-blue-400 font-bold">web apps</span> showcased in my{' '}
                 <span className="text-blue-400 font-bold hover:text-blue-200 hover:cursor-pointer">
                     <Link to='portfolioDiv' smooth duration={500}>
                         portfolio
@@ -81,12 +81,11 @@ const About = () => {
             <br />
 
             <p className="text-xl" data-aos="fade-up">
-                In addition to my enthusiasm for <span className="text-blue-400 font-bold">Software Engineering</span>, I am committed to 
-                incorporating <span className="text-blue-400 font-bold">Machine Learning</span> into my skillset. 
+                In addition to my enthusiasm for <span className="text-blue-400 font-bold">Software Engineering</span>, I have  
+                incorporated <span className="text-blue-400 font-bold">Machine Learning</span> into my skillset. 
                 With <span className="text-blue-400 font-bold">AI</span> being in high demand,  I hope to be at the forefront of this field in the future. 
-                Recently, I have concentrated significantly on this area
-                utilizing <span className="text-blue-400 font-bold">trained models</span> for image processing by feeding 
-                in <span className="text-blue-400 font-bold">embeddings</span>.
+                Recently, I have concentrated significantly on this area utilizing <span className="text-blue-400 font-bold">vision models</span> for classification tasks 
+                and training <span className="text-blue-400 font-bold">NLP models</span> for predictions.
             </p>
 
             <br />
