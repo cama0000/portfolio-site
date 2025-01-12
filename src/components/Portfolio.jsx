@@ -4,7 +4,7 @@ import studyBuddy from "../Assets/studyBuddy.png";
 import pantryPal from "../Assets/pantryPal.png";
 import speakStudy from "../Assets/speakStudy.png";
 import quantaFlashcards from "../Assets/quantaFlashcards.png";
-import fakeNews from "../Assets/fakeNews.png";
+import fakeNews from "../Assets/fakeNews.jpg";
 // import rateMyProf from "../Assets/rateMyProf.png";
 // import { CiYoutube } from "react-icons/ci";
 // import { FaGithub } from "react-icons/fa";
